@@ -1,0 +1,842 @@
+/* Gaya tambahan untuk judul */
+h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Gaya untuk teks paragraf */
+p {
+    font-size: 18px;
+}
+
+/* Gaya untuk input teks */
+input[type="text"], input[type="date"] {
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    padding: 12px;
+    transition: border-color 0.3s, background-color 0.3s;
+    border-radius: 10px;
+}
+
+input[type="text"]:focus, input[type="date"]:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: #fff;
+}
+
+/* Gaya untuk tombol */
+button {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Gaya untuk hasil cek */
+.result-container {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.result-content h2 {
+    text-transform: capitalize;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.result-content p {
+    font-style: italic;
+    color: #555;
+}
+
+/* Gaya untuk daftar masalah (issues) */
+.issues-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #007bff;
+    border-radius: 12px;
+}
+
+.issues-container h3 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+#issues li {
+    color: #888;
+    font-size: 14px;
+}
+
+/* Gaya untuk tombol kembali */
+#back-btn {
+    font-weight: bold;
+    background-color: #dc3545;
+    color: #fff;
+    border-radius: 30px;
+    padding: 12px 24px;
+}
+
+#back-btn:hover {
+    background-color: #c82333;
+    transform: scale(1.05);
+}
+
+/* Gaya untuk header dan konten */
+#container {
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 30px;
+}
+
+/* Gaya untuk gradient latar belakang */
+.kaca {
+    height: 250px;
+    width: 90%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    pointer-events: none;
+    transform: skewX(-20deg); /* Efek miring */
+}
+
+/* Gaya untuk hover input */
+input[type="text"]:hover, input[type="date"]:hover {
+    border-color: #007bff;
+}
+
+/* Gaya untuk hover tombol */
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
+
+/* Gaya untuk hover hasil cek */
+.result-container:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya untuk hover tombol kembali */
+#back-btn:hover {
+    background-color: #c82333;
+    transform: scale(1.1) translateY(-3px);
+}
+
+/* Gaya tambahan untuk judul */
+h1 {
+    font-size: 36px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan teks */
+}
+
+/* Gaya untuk teks paragraf */
+p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Gaya untuk input teks */
+input[type="text"], input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+input[type="text"]:focus, input[type="date"]:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: #fff;
+}
+
+/* Gaya untuk tombol */
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Gaya untuk hasil cek */
+.result-container {
+    text-align: left;
+    margin-top: 30px;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-content {
+    margin-bottom: 30px;
+}
+
+.result-content h2 {
+    color: #007bff;
+    font-size: 26px;
+    margin-bottom: 14px;
+}
+
+.result-content p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Gaya untuk daftar masalah (issues) */
+.issues-container {
+    margin-bottom: 30px;
+}
+
+.issues-container h3 {
+    color: #007bff;
+    font-size: 22px;
+    margin-bottom: 14px;
+}
+
+#issues {
+    list-style-type: disc;
+    padding-left: 24px;
+    margin: 0;
+}
+
+#issues li {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Gaya untuk tombol kembali */
+#back-btn {
+    position: absolute;
+    bottom: 20px; /* Sesuaikan agar tombol kembali tidak terlalu rendah */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+#back-btn:hover {
+    background-color: #0056b3;
+    transform: translate(-50%, -50%) scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Gaya untuk animasi */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.animated {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Gaya untuk tooltip */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Gaya untuk efek bayangan */
+.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya untuk ikon */
+.icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+}
+
+/* Gaya untuk efek bayangan saat hover */
+.shadow-hover {
+    transition: box-shadow 0.3s;
+}
+
+.shadow-hover:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Gaya untuk efek geser atas */
+.slide-up {
+    transition: transform 0.3s;
+}
+
+.slide-up:hover {
+    transform: translateY(-5px);
+}
+
+/* Gaya untuk animasi background */
+@keyframes bg-slide {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+.bg-slide {
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, #007bff 50%, #0056b3 50%);
+    transition: background-position 0.3s;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    animation: bg-slide 1s infinite alternate;
+}
+
+/* Gaya untuk efek geser samping */
+.slide-right {
+    transition: transform 0.3s;
+}
+
+.slide-right:hover {
+    transform: translateX(5px);
+}
+
+/* Gaya untuk animasi teks yang melayang */
+@keyframes float-text {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.float-text {
+    animation: float-text 2s ease-in-out infinite;
+}
+
+/* Gaya untuk teks berkilau */
+.glitter {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.glitter::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        45deg,
+        rgba(255, 255, 255, 0.8) 0%,
+        rgba(255, 255, 255, 0.2) 50%,
+        rgba(255, 255, 255, 0.8) 100%
+    );
+    animation: glitter 1.5s infinite linear;
+    z-index: 1;
+    pointer-events: none;
+}
+
+@keyframes glitter {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+/* Gaya untuk teks berbayangan */
+.text-shadow {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya untuk hover dengan efek zoom */
+.zoom {
+    transition: transform 0.3s;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+/* Gaya untuk latar belakang transparan */
+.transparent-bg {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+
+/* Gaya untuk animasi teks bergoyang */
+@keyframes shake-text {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    75% {
+        transform: translateX(-3px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.shake-text {
+    animation: shake-text 0.5s ease-in-out infinite;
+}
+
+/* Gaya untuk efek gelombang */
+.wave {
+    background-image: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.8) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    background-size: 200% 100%;
+    animation: wave 2s linear infinite;
+}
+
+@keyframes wave {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+/* Gaya untuk efek geser bawah */
+.slide-down {
+    transition: transform 0.3s;
+}
+
+.slide-down:hover {
+    transform: translateY(5px);
+}
+
+/* Gaya untuk hover dengan efek melayang */
+.float {
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.float:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+/* Gaya untuk teks berjalan */
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.marquee p {
+    display: inline-block;
+    margin-left: 100%;
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
+
+/* Gaya untuk hover dengan efek bayangan */
+.hover-shadow {
+    transition: box-shadow 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya untuk teks dengan efek neon */
+.neon-text {
+    color: #fff;
+    text-shadow: 0 0 10px #00fff9, 0 0 20px #00fff9, 0 0 30px #00fff9, 0 0 40px #00fff9, 0 0 70px #00fff9, 0 0 80px #00fff9, 0 0 100px #00fff9, 0 0 150px #00fff9;
+}
+
+/* Gaya untuk efek border */
+.border-effect {
+    position: relative;
+    overflow: hidden;
+}
+
+.border-effect::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #007bff;
+    transition: transform 0.3s ease;
+    z-index: -1;
+}
+
+.border-effect:hover::after {
+    transform: scaleX(0);
+}
+
+/* Gaya untuk efek transparan */
+.translucent {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Gaya untuk hover dengan efek putar */
+.rotate {
+    transition: transform 0.3s;
+}
+
+.rotate:hover {
+    transform: rotate(360deg);
+}
+
+/* Gaya untuk hover dengan efek blur */
+.blur {
+    transition: filter 0.3s;
+}
+
+.blur:hover {
+    filter: blur(3px);
+}
+
+/* Gaya untuk teks berkelebat */
+.blinking-text {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Gaya untuk efek mosaik */
+.mosaic {
+    background-image: linear-gradient(45deg, #007bff 25%, transparent 25%), linear-gradient(-45deg, #007bff 25%, transparent 25%), linear-gradient(45deg, transparent 75%, #007bff 75%), linear-gradient(-45deg, transparent 75%, #007bff 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+
+/* Gaya untuk hover dengan efek lipatan */
+.fold {
+    transition: transform 0.3s;
+}
+
+.fold:hover {
+    transform: rotateY(180deg);
+}
+
+/* Gaya untuk efek bayangan jatuh */
+.drop-shadow {
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+}
+
+/* Gaya untuk efek transparansi */
+.transparent {
+    opacity: 0.8;
+}
+
+/* Gaya untuk efek glowing */
+.glowing {
+    box-shadow: 0 0 10px #007bff, 0 0 20px #007bff, 0 0 30px #007bff, 0 0 40px #007bff, 0 0 70px #007
+/* Gaya untuk efek glowing (lanjutan) */
+ff, 0 0 80px #007bff;
+}
+
+/* Gaya untuk hover dengan efek ekspansi */
+.expand {
+    transition: transform 0.3s;
+}
+
+.expand:hover {
+    transform: scale(1.2);
+}
+
+/* Gaya untuk efek shadow di atas */
+.shadow-top {
+    box-shadow: 0 -8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya untuk efek bayangan di samping */
+.shadow-side {
+    box-shadow: -8px 0 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya untuk efek bayangan di bawah */
+.shadow-bottom {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya untuk efek bayangan di kanan */
+.shadow-right {
+    box-shadow: 8px 0 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya untuk hover dengan efek rotasi */
+.rotate-hover {
+    transition: transform 0.3s;
+}
+
+.rotate-hover:hover {
+    transform: rotate(360deg);
+}
+
+/* Gaya untuk teks dengan efek balon */
+.bubble-text {
+    position: relative;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.bubble-text::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-left-color: #007bff;
+    transform: translateY(-50%);
+}
+
+/* Gaya untuk hover dengan efek lipatan */
+.fold-hover {
+    transition: transform 0.3s;
+}
+
+.fold-hover:hover {
+    transform: scale(0.8) rotateY(180deg);
+}
+
+/* Gaya untuk efek border tebal */
+.thick-border {
+    border: 4px solid #007bff;
+}
+
+/* Gaya untuk efek melayang */
+.float-effect {
+    transition: transform 0.3s;
+}
+
+.float-effect:hover {
+    transform: translateY(-10px);
+}
+
+/* Gaya untuk efek zoom in */
+.zoom-in {
+    transition: transform 0.3s;
+}
+
+.zoom-in:hover {
+    transform: scale(1.1);
+}
+
+/* Gaya untuk efek bayangan teks */
+.text-shadow-effect {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Gaya untuk hover dengan efek transparan */
+.transparent-hover {
+    transition: opacity 0.3s;
+}
+
+.transparent-hover:hover {
+    opacity: 0.8;
+}
+
+/* Gaya untuk efek teks bold */
+.bold-text {
+    font-weight: bold;
+}
+
+/* Gaya untuk efek teks italic */
+.italic-text {
+    font-style: italic;
+}
+
+/* Gaya untuk efek teks underline */
+.underline-text {
+    text-decoration: underline;
+}
+
+/* Gaya untuk efek teks uppercase */
+.uppercase-text {
+    text-transform: uppercase;
+}
+
+/* Gaya untuk efek teks lowercase */
+.lowercase-text {
+    text-transform: lowercase;
+}
+
+/* Gaya untuk teks dengan efek tebal */
+.bold-effect {
+    font-weight: bold;
+}
+
+/* Gaya untuk teks dengan efek italic */
+.italic-effect {
+    font-style: italic;
+}
+
+/* Gaya untuk teks dengan efek underline */
+.underline-effect {
+    text-decoration: underline;
+}
+
+/* Gaya untuk teks dengan efek strikethrough */
+.strikethrough-effect {
+    text-decoration: line-through;
+}
+
+/* Gaya untuk teks dengan efek uppercase */
+.uppercase-effect {
+    text-transform: uppercase;
+}
+
+/* Gaya untuk teks dengan efek lowercase */
+.lowercase-effect {
+    text-transform: lowercase;
+}
+
+/* Gaya untuk efek bayangan teks lebih lembut */
+.soft-shadow {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk efek border dengan transparan */
+.transparent-border {
+    border: 1px solid rgba(0, 123, 255, 0.5);
+}
+
+/* Gaya untuk hover dengan efek hilang */
+.fade-out {
+    transition: opacity 0.3s;
+}
+
+.fade-out:hover {
+    opacity: 0.5;
+}
+
+/* Gaya untuk efek border dengan shadow */
+.shadow-border {
+    border: 2px solid #007bff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk efek border dengan garis tengah */
+.strikethrough-border {
+    border-bottom: 2px solid #007bff;
+}
+
+/* Gaya untuk efek border dengan gradient */
+.gradient-border {
+    border: 2px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(to right, #007bff, #0056b3);
+}
+
+/* Gaya untuk efek border dengan outline */
+.outline-border {
+    border: 2px solid transparent;
+    outline: 2px solid #007bff;
+}
+
+/* Gaya untuk hover dengan efek skala */
+.scale-hover {
+    transition: transform 0.3s;
+}
+
+.scale-hover:hover {
+    transform: scale(1.1);
+}

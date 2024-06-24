@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cek Khodam Beasiswa Anda</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #back-btn {
+        position: absolute;
+        bottom: -322px; /* Sesuaikan agar tombol kembali tidak terlalu rendah */
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 12px 24px;
+        border: none;
+        border-radius: 8px;
+        background-color: #32bfdb;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+        }
+
+        #back-btn:hover {
+        background-color: #0056b3;
+        transform: translate(-50%, -50%) scale(1.1);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+    <body>
+        <div id="container">
+            <header>
+                <h1>Cek Khodam Anda</h1>
+                <p>Mengetahui Khodam Berdasarkan Habit Beasiswa disini GRATIS.</p>
+            </header>
+            <main>
+                <div id="background">
+                    <div class="hover-effect"></div>
+                    <div class="animated-text">Selamat Datang!</div>
+                </div>
+                <div id="form-section" class="page">
+                    <form id="khodam-form">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                        <button type="submit">Cek</button>
+                    </form>
+                </div>
+                <div id="result-section" class="page hidden">
+                    <div class="result-container">
+                        <div class="result-content">
+                            <h2>Hasil Cek Khodam Anda</h2>
+                            <p><strong>Nama Khodam:</strong> <span id="khodam-name"></span></p>
+                            <p><strong>Deskripsi:</strong> <span id="khodam-description"></span></p>
+                        </div>
+                        <div class="issues-container">
+                            <h3>Daftar Masalah (Issues):</h3>
+                            <ul id="issues"></ul>
+                        </div>
+                        <button id="back-btn">Kembali</button>
+                    </div>
+                </div>
+                <aside>
+                    <h2>Informasi Tambahan</h2>
+                        <a href="index.html">Home</a>
+                </aside>
+            </main>
+        </div>
+        <script src="khodam.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compatibility Check</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Cek Kecocokkan dengan Pasangan</h1>
+            <p>Mengetahui tingkat kecocokkan dengan pasangan anda.</p>
+        </header>
+        <main>
+            <form id="compatibility-form">
+                <label for="your-name">Nama Anda:</label>
+                <input type="text" id="your-name" required>
+                
+                <label for="partner-name">Nama Pasangan:</label>
+                <input type="text" id="partner-name" required>
+                
+                <button type="submit" id="check-compatibility-button">Check Compatibility</button>
+            </form>
+            
+            <div id="result-section" class="hidden">
+                <p id="display-your-name"></p>
+                <p id="display-partner-name"></p>
+                <p id="compatibility-result"></p>
+                <p id="compatibility-reason"></p>
+                <button id="back-to-form-button">Back to Form</button>
+            </div>
+            <aside>
+                <h2>Informasi Tambahan</h2>
+                    <a href="index.html">Home</a>
+            </aside>
+        </main>
+    </div>
+    
+    
+    <script src="compatibility.js"></script>
+</body>
+</html>

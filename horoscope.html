@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Horoscope Harian</h1>
+            <p>Cari tahu ramalan zodiak Anda hari ini.</p>
+        </header>
+        <main>
+            <form id="horoscopeForm">
+                <label for="zodiacSign">Enter your zodiac sign:</label>
+                <input type="text" id="zodiacSign" required>
+                <button type="submit">Get Horoscope</button>
+            </form>
+            <div id="horoscopeResult"></div>
+            <div id="result-section" class="hidden">
+                <div id="result-display"></div>
+                <button id="back-to-form-button">Back</button>
+            </div>
+            <aside>
+                <h2>Informasi Tambahan</h2>
+                <a href="index.html">Home</a>
+            </aside>
+        </main>
+    </div>
+    <script src="horoscope.js"></script>
+</body>
+</html>
